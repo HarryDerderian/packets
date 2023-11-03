@@ -1,2 +1,2 @@
 # SYN-sender
-Teaching myself what network protocols are, and how I can program them.
+This Python program is designed to send SYN requests, a crucial part of the TCP three-way handshake, for the purpose of understanding networking and how computers communicate over the internet. Creating and sending SYN requests is a fundamental skill in the field of networking and cybersecurity. By developing this program, you will gain hands-on experience in crafting and sending network packets, contributing to your knowledge of network protocols.
