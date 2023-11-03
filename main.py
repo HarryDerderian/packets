@@ -11,7 +11,7 @@ if __name__ == "__main__" :
     TCP = scapy.TCP(dport = target_port, flags = cmd_2_flag["SYN"])
     TARGET_IP = scapy.IP(dst = LOCAL_HOST_IP)
     # Merge the above with '/' this will create a complete packet.
-    packet = scapy.IP(dst = LOCAL_HOST_IP) / TCP
+    packet = TARGET_IP / TCP
     try :
         # Send out the packet, wait for a response.
         response = scapy.sr1(packet)
